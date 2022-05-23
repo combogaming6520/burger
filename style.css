@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    background: url(../pizza/img/header_bg.jpg) no-repeat center center / cover;
+    max-width: 1920px;
+    width: 100%;
+    height: 400px;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.menu_ul{
+    display: flex;
+}
+.logo{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 900;
+}
+.ul_h4{
+    color: #fff;
+    padding-right: 20px;
+}
+.ul_button{
+    background: rgb(57, 220, 28);
+    border: 5px  solid rgb(57, 220, 28);
+    border-radius: 50px;
+    padding: 5px;
+    color: #fff;
+}
+.header_box{
+    padding: 80px;
+}
+.header_h6{
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.header_h3{
+    color: #fff;
+    font-size: 66px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.header_p{
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+}
+/* header end */
+/* ********** */
+/* section start */
+.bloc_box{
+    display: flex;
+    margin: 100px auto;
+}
+.section_type{
+    padding: 20px;
+}
+.type_h2{
+    color: chartreuse;
+    text-align: center;
+}
+.type_p{
+    padding: 10px;
+}
+.type_box{
+    display: flex;
+
+}
+.box_img{
+    width: 150px;
+}
+.box_h6{
+    font-weight: 900;
+    padding-left: 100px;
+}
+/* section end */
+/* ********** */
+/* main start */
+.main_2{
+    color: yellowgreen;
+}
+.main_line{
+    height: 2px;
+    background: linear-gradient(to left, yellowgreen , red , aqua , yellow );
+    width: 100%;
+    margin: 15px;
+}
+.main_blox{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.box_h2{
+    color: gray;
+    padding: 10px;
+}
+.box_p{
+    padding: 5px;
+    color: gray;
+    
+}
+.box_span{
+    font-size: 30px;
+}
+.main_one{
+    width: 400px;
+    text-align: center;
+}
+/* main_end */
+/* ******** */
+/* footer start */
+footer{
+    width: 100%;
+    height: 400px;
+    background: #000;
+}
+.footer_h6{
+    color: #fff;
+    text-align: center;
+ padding-top: 250px;
+ font-size: 20px;
+}
